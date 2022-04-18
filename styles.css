@@ -1,7 +1,10 @@
 body{
     background-image: url(https://pixy.org/src/96/968986.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: cursive;
 }
 
 img{
@@ -21,4 +24,10 @@ h1{
 
 h2{
     text-align: center;
+    text-decoration-line: underline;
+}
+
+h3{
+   font-family: Arial, Helvetica, sans-serif; 
+   text-decoration-line: underline;
 }
